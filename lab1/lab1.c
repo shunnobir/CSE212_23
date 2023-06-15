@@ -16,11 +16,11 @@ int sales(Pharmacy *p) {
 }
 
 int main() {
+    FILE *fd = fopen("input.in", "r");
     int n;
-    scanf("%d\n", &n);
+    fscanf(fd, "%d\n", &n);
 
     Pharmacy pharmacies[n];
-    FILE *fd = fopen("input.int", "r");
     for (int i = 0; i < n; ++i) {
         /*
         * %[a-zA-Z ] means: "read untill you can read 
