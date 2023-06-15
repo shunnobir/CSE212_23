@@ -20,6 +20,7 @@ int main() {
     scanf("%d\n", &n);
 
     Pharmacy pharmacies[n];
+    FILE *fd = fopen("input.int", "r");
     for (int i = 0; i < n; ++i) {
         /*
         * %[a-zA-Z ] means: "read untill you can read 
@@ -29,7 +30,7 @@ int main() {
         * Here A-Z means: read all the characters between A to Z
         * And the space at the end means: read the spaces if encountered any
         */
-        scanf("%[a-zA-Z ],%[a-zA-Z ],%[a-zA-Z ],%d,%d\n", 
+        fscanf(fd, "%[a-zA-Z ],%[a-zA-Z ],%[a-zA-Z ],%d,%d\n", 
               pharmacies[i].name,
               pharmacies[i].state,
               pharmacies[i].sub_state,
@@ -37,6 +38,7 @@ int main() {
               &pharmacies[i].returned_products);
     }
 
+    fclose(fd);
 
     /* 
      * Uncomment the code segment to print the read data
