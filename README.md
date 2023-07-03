@@ -24,7 +24,8 @@ This repository will be used to upload all the codes and materials of each lab c
    end of the list.<br>
    c. Implement a function `node_insert_g(Node **head, int data, Node *after)` that inserts a data after
    any given node `after`<br>
-   d. Implement a singly linked list that can store information about a pharmacy.
+   d. Implement two functions `long long sum(Node *head) and `int min(Node \*head to calculate the sum and the minimum of the data given in the file `input.in`<br>
+   e. Implement a singly linked list that can store information about a pharmacy.
    Implement the following functions,<br>
    - `pharmacy_insert(Pharmacy **head, Pharmacy *data)`: where `head` is the given list of pharmacies and `data` is the pharmacy to be inserted
    - `pharmacy_remove(Pharmacy **head, Pharmacy *data)`: where `head` is the given list of pharmacies and `data` is the pharmacy to be removed
