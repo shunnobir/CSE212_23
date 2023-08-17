@@ -16,12 +16,12 @@ This repository will be used to upload all the codes and materials of each lab c
 3. [Lab2: Bubble sort (`c`)](./lab2/c/bubble_sort.h)
 4. [Lab2: Insertion sort (`c`)](./lab2/c/insertion_sort.h)
 5. [Lab2: Merge sort (`c`)](./lab2/c/merge_sort.h)
-6. [Lab2: Bubble sort (`c++`)](./lab2/c/bubble_sort.hpp)
-7. [Lab2: Insertion sort (`c++`)](./lab2/c/insertion_sort.hpp)
-8. [Lab2: Merge sort (`c++`)](./lab2/c/merge_sort.hpp)
-9. [Lab2: Bubble sort (`python`)](./lab2/c/bubble_sort.py)
-10. [Lab2: Insertion sort (`python`)](./lab2/c/insertion_sort.py)
-11. [Lab2: Merge sort (`python`)](./lab2/c/merge_sort.py)
+6. [Lab2: Bubble sort (`c++`)](./lab2/c++/bubble_sort.hpp)
+7. [Lab2: Insertion sort (`c++`)](./lab2/c++/insertion_sort.hpp)
+8. [Lab2: Merge sort (`c++`)](./lab2/c++/merge_sort.hpp)
+9. [Lab2: Bubble sort (`python`)](./lab2/python/bubble_sort.py)
+10. [Lab2: Insertion sort (`python`)](./lab2/python/insertion_sort.py)
+11. [Lab2: Merge sort (`python`)](./lab2/python/merge_sort.py)
 
 # Implementations
 
